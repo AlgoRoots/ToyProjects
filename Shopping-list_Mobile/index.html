@@ -4,13 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;500&display=swap" rel="stylesheet">
     <title>Shopping list</title>
     <script src="/main.js" defer></script>
-    <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc" 
-    crossorigin="anonymous"></script>
-    
+    <link rel="stylesheet" href="style.css">    
 </head>
 <body>
     <section class="list">
@@ -36,7 +34,7 @@
                         <button class="iconcircle bin"><i class="fas fa-trash"></i></button>
                     </div>
                 </div>
-            </li>  -->
+            </li>   -->
 
             <!-- <li class="item__row_Done">
                 <div class="item_Done">
@@ -54,11 +52,14 @@
         <!-- Bottom -->
         <div class="bottom">
             <form class="addItem">
-                <input  class="addText" type="text" autofocus="true" placeholder="Add item"></input> 
-                <input class="addNum" type="number" min="1" step="1" value="1"> 
-            </form>
+                <div class="input-box">
+                    <input  class="addText" type="text" autofocus="true" placeholder="Add item"></input> 
+                    <input class="addNum" type="number" min="1" step="1" value="1"> 
+                </div>
             
-            <button class="addBtn"><i class="fas fa-plus"></i></button>
+            
+                <button type="submit" class="addBtn"><i class="fas fa-plus"></i></button>
+            </form>
         </div>
     </section>
 </body>

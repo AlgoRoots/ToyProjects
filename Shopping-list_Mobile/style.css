@@ -204,7 +204,7 @@ button {
 
 /*  add Item  */
 
-.addItem {
+.input-box {
   position: absolute;
   width: auto;
   right: var(--padding-leftright);
